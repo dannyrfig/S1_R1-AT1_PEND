@@ -40,3 +40,8 @@ Centralizado com classes Flex do Bootstrap.
 
 ### Footer
 Links organizados com `nav` do Bootstrap e texto centralizado.
+
+## Autores
+
+Danielly Rodrigues  
+Bruno Navarro
