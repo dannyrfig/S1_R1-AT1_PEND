@@ -1,0 +1,29 @@
+header{  /* Estilização do cabeçalho com cor, espaçamento e flexbox */
+   background-color: #cbe6f0;
+   color: white;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#logo {
+    display: block;        /* Deixa a imagem em bloco */
+    max-width: 20%;        /* Tamanho padrão */
+    margin-left: auto;     
+    margin-right: auto;    
+    border-radius: 8%;     /* Bordas arredondadas */
+}
+
+@media (min-width:400px) { /* Ajuste do logo em telas médias */
+    #logo {
+        max-width: 50%;
+    }
+}
+
+@media (min-width:700px) { /* Ajuste do logo em telas maiores */
+    #logo {
+        max-width: 30%;
+    }
+}
